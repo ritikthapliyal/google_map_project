@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.--buttons{
+    position: absolute;
+    z-index: 100;
+    bottom: 10%;
+    right: 10%;
+
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+}
+
+.--buttons button{
+    background-color: lightgrey;
+    padding: .6rem;
+    border: none;
+}
+.--buttons button:hover{
+    background-color: rgb(174, 174, 174);
+    color: white;
+    cursor: pointer;
+}
